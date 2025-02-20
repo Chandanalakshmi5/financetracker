@@ -2,6 +2,7 @@ Personal Finance Tracker
 
 A simple and responsive web application for tracking personal finances, built with Next.js, React, shadcn/ui, Recharts, and MongoDB.
 
+
 Features
 
 Stage 1: Basic Transaction Tracking
@@ -13,6 +14,8 @@ View a list of all transactions
 Monthly expenses bar chart
 
 Basic form validation for input fields
+
+
 
 Stage 2: Categories
 
@@ -29,6 +32,8 @@ Total expenses
 Category breakdown
 
 Most recent transactions
+
+
 
 Stage 3: Budgeting
 
@@ -50,14 +55,22 @@ Database: MongoDB (via MongoDB Atlas)
 
 Deployment: Vercel (for live application)
 
+
+
 Project Structure
 
 finance-tracker/
+
 ├── components/         # Reusable UI components
+
 ├── pages/              # Next.js pages (includes API routes)
+
 ├── models/             # MongoDB models
+
 ├── utils/              # Utility functions
+
 └── public/             # Static assets
+
 
 Future Improvements
 
